@@ -1,7 +1,5 @@
 > 点击勘误[issues](https://github.com/webVueBlog/learn-React/issues)，哪吒感谢大家的阅读
 
-## React 安装
-
 引入了三个库： react.development.min.js 、react-dom.development.min.js 和 babel.min.js：
 
 - react.min.js - React 的核心库

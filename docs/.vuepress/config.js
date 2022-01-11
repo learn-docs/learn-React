@@ -64,6 +64,10 @@ module.exports = {
 				children: [{
 						title: "React 安装",
 						path: "/handbook/install"
+					},
+					{
+						title: "React 元素渲染",
+						path: "/handbook/render-elements"
 					}
 				],
 			},
