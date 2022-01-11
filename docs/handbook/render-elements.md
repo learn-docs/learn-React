@@ -104,7 +104,7 @@ class Clock extends React.Component {
         return (
             <div>
                 <h1>Hello, world</h1>
-                <h2>现在是 {props.date.toLocaleTimeString()}</h2>
+                <h2>现在是 {this.props.date.toLocaleTimeString()}</h2>
             </div>
         );
     }
@@ -118,5 +118,47 @@ function tick() {
 }
 
 setInterval(tick, 1000);
+```
+
+1. 使用 ES6 类写法，用 this.props.属性名 来取值。
+2. 可以多层 props 来传值，在 ReactDOM.render 定义属性值，传给调用方法 App，再在调用的ES6类调用中用 props.属性直接赋值过去。
+
+```js
+var myStyle = {color:'red',textAlign:'center'}
+
+class Name extends React.Component {
+  render() {
+    return <h1 style={myStyle}>网站名称：{this.props.name}</h1>;
+  }
+}
+class Url extends React.Component {
+  render() {
+    return <h1>网站地址：{this.props.url}</h1>;
+  }
+}
+class Nickname extends React.Component {
+  render() {
+    return <h1>呢称：{this.props.nickname}</h1>;
+  }
+}
+
+function App(props) {
+    return (
+        <div>
+            <Name name={props.name}/>
+            <Url  url={props.url}/>
+            <Nickname  nickname={props.nickname}/>
+        </div>
+    );
+}
+```
+
+多个属性的传入注意不用逗号或分号隔开而是空格符隔开:
+
+```js
+ReactDOM.render(
+     <App name={"教程"} url={"http://www.1024bibi.com"} nickname={"哪吒"}/>,
+    document.getElementById('example')
+);
 ```
 
