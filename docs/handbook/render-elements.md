@@ -20,7 +20,7 @@ const element = <h1>Hello, world!</h1>;
 
 我们用 React 开发应用时一般只会定义一个根节点。但如果你是在一个已有的项目当中引入 React 的话，你可能会需要在不同的部分单独定义 React 根节点。
 
-要将React元素渲染到根DOM节点中，我们通过把它们都传递给 ReactDOM.render() 的方法来将其渲染到页面上：
+要将React元素渲染到根DOM节点中，我们通过把它们都传递给 `ReactDOM.render()` 的方法来将其渲染到页面上：
 
 ```js
 const element = <h1>Hello, world!</h1>;
@@ -96,7 +96,7 @@ function Clock(props) {
 }
 ```
 
-除了函数外我们还可以创建一个 React.Component 的 ES6 类，该类封装了要展示的元素，需要注意的是在 render() 方法中，需要使用 this.props 替换 props：
+除了函数外我们还可以创建一个 `React.Component` 的 ES6 类，该类封装了要展示的元素，需要注意的是在 render() 方法中，需要使用 this.props 替换 props：
 
 ```js
 class Clock extends React.Component {
@@ -121,7 +121,7 @@ setInterval(tick, 1000);
 ```
 
 1. 使用 ES6 类写法，用 this.props.属性名 来取值。
-2. 可以多层 props 来传值，在 ReactDOM.render 定义属性值，传给调用方法 App，再在调用的ES6类调用中用 props.属性直接赋值过去。
+2. 可以多层 props 来传值，在 `ReactDOM.render` 定义属性值，传给调用方法 App，再在调用的ES6类调用中用 props.属性直接赋值过去。
 
 ```js
 var myStyle = {color:'red',textAlign:'center'}

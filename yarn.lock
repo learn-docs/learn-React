@@ -1411,6 +1411,11 @@
   resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
   integrity sha1-Fs8aaETxVsEdUTXGRicMZzQmPrY=
 
+"@vuepress-reco/vuepress-plugin-bulletin-popover@^1.5.7":
+  version "1.5.7"
+  resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-bulletin-popover/download/@vuepress-reco/vuepress-plugin-bulletin-popover-1.5.7.tgz#f1f5fac56dd4ec8e2adcae33f18a1e00d6122d9b"
+  integrity sha1-8fX6xW3U7I4q3K4z8YoeANYSLZs=
+
 "@vuepress-reco/vuepress-plugin-comments@^1.6.0":
   version "1.6.0"
   resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-1.6.0.tgz#df9fb43ce032d429b4c6defcaef461420593f69f"
@@ -1424,7 +1429,12 @@
     valine "^1.4.14"
     vssue "^1.4.6"
 
-"@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
+"@vuepress-reco/vuepress-plugin-kan-ban-niang@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-kan-ban-niang/download/@vuepress-reco/vuepress-plugin-kan-ban-niang-1.0.5.tgz#73b47094f1a07af05923fe9ae6c25a4c33586168"
+  integrity sha1-c7RwlPGgevBZI/6a5sJaTDNYYWg=
+
+"@vuepress-reco/vuepress-plugin-loading-page@^1.4.0", "@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
   version "1.6.0"
   resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-loading-page/download/@vuepress-reco/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"
   integrity sha1-NLcu00LcmxUCHQd/+Prq/lIUYVk=
@@ -1433,13 +1443,6 @@
   version "1.6.0"
   resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-pagation/download/@vuepress-reco/vuepress-plugin-pagation-1.6.0.tgz#c632aae1638ff9c67fe58c39ab617132be9eeecb"
   integrity sha1-xjKq4WOP+cZ/5Yw5q2FxMr6e7ss=
-
-"@vuepress-reco/vuepress-plugin-screenfull@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-screenfull/download/@vuepress-reco/vuepress-plugin-screenfull-1.0.1.tgz#73924c867f1f552c9eae744784b6d5390179e50f"
-  integrity sha1-c5JMhn8fVSyernRHhLbVOQF55Q8=
-  dependencies:
-    screenfull "4.2.1"
 
 "@vuepress/core@1.9.5":
   version "1.9.5"
@@ -1540,19 +1543,18 @@
     "@vuepress/types" "1.9.5"
     cross-spawn "^6.0.5"
 
+"@vuepress/plugin-medium-zoom@1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.0.0-alpha.0.tgz#efb6bd10d41c64161e3e25d6108fe527ebd4abad"
+  integrity sha1-77a9ENQcZBYePiXWEI/lJ+vUq60=
+  dependencies:
+    medium-zoom "^0.4.0"
+
 "@vuepress/plugin-medium-zoom@1.5.0":
   version "1.5.0"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.5.0.tgz#99a574f6c52570ae16be3de529bdc556d09f88fe"
   integrity sha1-maV09sUlcK4Wvj3lKb3FVtCfiP4=
   dependencies:
-    medium-zoom "^1.0.4"
-
-"@vuepress/plugin-medium-zoom@^1.9.5":
-  version "1.9.5"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.9.5.tgz#71d71312ea4d579883bdfda554ef4ed1c434bac2"
-  integrity sha512-ANHfmsPxF+lDtPHa0RlRlsfM6J5Bg2PWNfWxLGET9UxgN4tFX1cq3QLUk+yxoNIb5XFUtqEA2gR7nRc2i0Kt0Q==
-  dependencies:
-    "@vuepress/types" "1.9.5"
     medium-zoom "^1.0.4"
 
 "@vuepress/plugin-nprogress@1.9.5":
@@ -5838,6 +5840,11 @@ media-typer@0.3.0:
   resolved "https://registry.npm.taobao.org/media-typer/download/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+medium-zoom@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.nlark.com/medium-zoom/download/medium-zoom-0.4.0.tgz#8e13c9b754903c0c903220611af0d3cd373a4222"
+  integrity sha1-jhPJt1SQPAyQMiBhGvDTzTc6QiI=
+
 medium-zoom@^1.0.4:
   version "1.0.6"
   resolved "https://registry.nlark.com/medium-zoom/download/medium-zoom-1.0.6.tgz#9247f21ca9313d8bbe9420aca153a410df08d027"
@@ -7516,11 +7523,6 @@ schema-utils@^2.6.5:
     "@types/json-schema" "^7.0.5"
     ajv "^6.12.4"
     ajv-keywords "^3.5.2"
-
-screenfull@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.npmmirror.com/screenfull/download/screenfull-4.2.1.tgz#3245b7bc73d2b7c9a15bd8caaf6965db7cbc7f04"
-  integrity sha512-PLSp6f5XdhvjCCCO8OjavRfzkSGL3Qmdm7P82bxyU8HDDDBhDV3UckRaYcRa/NDNTYt8YBpzjoLWHUAejmOjLg==
 
 section-matter@^1.0.0:
   version "1.0.0"
