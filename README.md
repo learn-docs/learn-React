@@ -9,7 +9,7 @@ yarn install // 安装依赖
 yarn serve // 预览
 ```
 
-## 加入awesome-css
+## 加入learn-React
 
 - learn-React的最大好处就是可以锻炼解决React问题的思维能力。相信我，「如何去思考」​ 本身也是一项需要不断学习和练习的技能。
 
